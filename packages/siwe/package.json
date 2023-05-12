@@ -1,5 +1,5 @@
 {
-  "name": "siwe",
+  "name": "@ensuro/siwe",
   "version": "2.1.4",
   "description": "Sign-In with Ethereum",
   "main": "dist/siwe.js",
@@ -13,7 +13,7 @@
     "lint": "eslint --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
-  "author": "Spruce Systems Inc.",
+  "author": "Spruce Systems Inc. / Ensuro",
   "license": "Apache-2.0",
   "keywords": [
     "ethereum",
@@ -21,9 +21,9 @@
     "sign-in-with-ethereum",
     "siwe"
   ],
-  "homepage": "https://github.com/spruceid/siwe",
+  "homepage": "https://github.com/ensuro/siwe",
   "dependencies": {
-    "@spruceid/siwe-parser": "*",
+    "@ensuro/siwe-parser": "*",
     "@stablelib/random": "^1.0.1",
     "uri-js": "^4.4.1",
     "valid-url": "^1.0.9"
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spruceid/siwe.git"
+    "url": "git+https://github.com/ensuro/siwe.git"
   },
   "bugs": {
-    "url": "https://github.com/spruceid/siwe/issues"
+    "url": "https://github.com/ensuro/siwe/issues"
   }
 }
